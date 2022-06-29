@@ -7,5 +7,5 @@ The rules are simple:
 2. Technologies and Tools used are Teachable Machine, Python.
 ## Milestone 1: Create Model
 - Create an image project model with four different classes: Rock, Paper, Scissors, Nothing.
-  - Using Teachable Machine, generated the model. Each class is trained with photos that show the camera each option. The 'Nothing' class reflects the absence of a choice. 
-  - Download the model from Teachable-Machine's "Tensorflow" tab. The model's filename is keras model.h5, and the text file containing the labels is labels.txt. The downloaded file [converted_keras.zip](converted_keras.zip) contain the structure and parameters of a deep learning model. They are neither executable files, nor do they contain anything readable if you look inside. In the following milestone, you will load them into your Python programme.
+  - Using Teachable Machine(Train a computer to recognize your own images, sounds, & poses), generated the model. Each class is trained with photos that show the camera each option. The 'Nothing' class reflects the absence of a choice. 
+  - Download the model from Teachable-Machine's "Tensorflow" tab. The model's filename is keras model.h5, and the text file containing the labels is labels.txt. The downloaded file [converted_keras.zip](converted_keras.zip) contain the structure and parameters of a deep learning model.
