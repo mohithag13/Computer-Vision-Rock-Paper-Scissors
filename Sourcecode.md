@@ -4,3 +4,7 @@ The rules are simple:
 - Rock smashes scissors.
 - Paper covers rock.
 - Scissors cut paper.
+2. Technologies and Tools used are Teachable Machine, Python.
+## Milestone 1: Create Model
+- Create an image project model with four different classes: Rock, Paper, Scissors, Nothing.
+    -Using Teachable Machine, generated the model. Each class is trained with photos that show the camera each option. The 'Nothing' class reflects the absence of a choice. 
