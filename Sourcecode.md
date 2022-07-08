@@ -13,7 +13,7 @@ The rules are simple:
 - Create the conda virtual environment and install the necessary packages to work on the model such as opencv-python, tensorflow, and ipykernel.
 - Run the model [rps_template.py](rps_template.py) and get familiar with model
 ## Milestone 3: Create Rock-Paper-Scissors game
-- The code must select an option at random (rock, paper, or scissors) and then prompt the user for input. To play the game without the camera, use the [manual rps.py](manual rps.py) file.
+- The code must select an option at random (rock, paper, or scissors) and then prompt the user for input. To play the game without the camera, use the [manual_rps.py](manual_rps.py) file.
 - The random module can be used to pick a random option between rock, paper, and scissors and create the input function to get the user's choice.
 - Create seperate functions to store the user's choice, computer's choice and get winner.
 - Using if-elif-else statements, the script selects a winner based on the classic Rock-Paper-Scissors rules.
