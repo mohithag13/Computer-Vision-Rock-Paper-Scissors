@@ -1,0 +1,50 @@
+import random
+
+# Computers choiche function
+def get_computer_choice():
+    possible_choices = ['rock', 'paper', 'scissors']
+    computer_option  = random.choice(possible_choices)
+    return computer_option
+# Users choice function
+def get_user_choice():
+    user_option = input("Enter a choice:")
+    return user_option
+# Determine Winnner function
+global winner
+def get_winner(user_choice, computer_choice):
+    if user_choice == computer_choice:
+        print(f"Both players chose {user_choice}. It is tie!")
+    elif user_choice == 'rock':
+        if computer_choice == 'scissors':
+            print("Rock smashes scissors!")
+            winner = 'user'
+        else:
+            print("Paper covers rock!")
+            winner = 'computer'
+    elif user_choice == 'paper':
+        if computer_choice == 'rock':
+            print("Paper covers rock!")
+            winner = 'user'
+        else:
+            print("Scissors cuts paper!")
+            winner = 'computer'
+    elif user_choice == 'scissors':
+        if computer_choice == 'paper':
+            print("Scissors cuts paper!")
+            winner = 'user'
+        else:
+            print("Rock smashes scissors!")
+            winner = 'computer'
+    return winner
+
+def play():
+    user_action = get_user_choice()
+    computer_action = get_computer_choice()
+    print(f"Computer choice is:{computer_action}")
+    final_winner = get_winner(user_choice=user_action, computer_choice=computer_action)
+    print(f"The final winner is:{final_winner}")
+
+play()
+
+
+
