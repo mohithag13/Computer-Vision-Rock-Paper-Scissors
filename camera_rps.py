@@ -97,7 +97,7 @@ while True:
     elif computer_wins == 3:
         print('You Lose')
         break
-        # Press q to close the window
+    # Press s to close the window
     if cv2.waitKey(1) & 0xFF == ord('s'):
         break
      
